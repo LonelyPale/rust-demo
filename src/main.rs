@@ -1,5 +1,7 @@
+mod fs;
 mod net;
 mod os;
+mod crypto;
 
 fn main() {
     println!("Hello, world!");
