@@ -40,8 +40,3 @@ fn dir2() -> Result<(), Box<dyn std::error::Error>> {
 
     Ok(())
 }
-
-#[test]
-fn read_file() {
-    //105230C30784ACA38D33AF6E077D5982F04F936C
-}

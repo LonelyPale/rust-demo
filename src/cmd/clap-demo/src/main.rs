@@ -17,6 +17,7 @@ struct Args {
     count: u8,
 }
 
+/// cargo add clap --features derive
 fn main() {
     let args = Args::parse();
 
