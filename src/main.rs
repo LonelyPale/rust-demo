@@ -1,8 +1,12 @@
 mod crypto;
 mod db;
+mod encoding;
+mod error;
 mod fs;
+mod log;
 mod net;
 mod os;
+mod web;
 
 fn main() {
     println!("Hello, world!");
