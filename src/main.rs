@@ -1,3 +1,5 @@
+mod console;
+mod core;
 mod crypto;
 mod db;
 mod encoding;
@@ -6,6 +8,7 @@ mod fs;
 mod log;
 mod net;
 mod os;
+mod validate;
 mod web;
 
 fn main() {
